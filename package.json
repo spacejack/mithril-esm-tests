@@ -19,6 +19,8 @@
     "@types/mithril": "^1.1.12",
     "browserify": "^16.2.2",
     "rollup": "^0.63.5",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-typescript2": "^0.16.1",
     "ts-loader": "^4.4.2",
     "tsify": "^4.0.0",
