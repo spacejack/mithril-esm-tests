@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "br": "browserify --debug src/index.ts -p [ tsify --project src/tsconfig.json ] -o public/app.js",
+    "br": "browserify src/index.ts -p [ tsify --project src/tsconfig.json ] -o public/app.js",
     "wp": "webpack"
   },
   "keywords": [],
