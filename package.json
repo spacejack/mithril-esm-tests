@@ -1,0 +1,26 @@
+{
+  "name": "mithril-esm-tests",
+  "version": "1.0.0",
+  "description": "Mithril ESM Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "br": "browserify --debug src/index.ts -p [ tsify --project src/tsconfig.json ] -o public/app.js",
+    "wp": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "git+https://github.com/porsager/mithril.js.git#esm-output"
+  },
+  "devDependencies": {
+    "@types/mithril": "^1.1.12",
+    "browserify": "^16.2.2",
+    "ts-loader": "^4.4.2",
+    "tsify": "^4.0.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
