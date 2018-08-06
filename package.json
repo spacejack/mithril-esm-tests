@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "br": "browserify src/index.ts -p [ tsify --project src/tsconfig.json ] -o public/app.js",
-    "wp": "webpack"
+    "wp": "webpack",
+    "ro": "rollup --config rollup.config.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
   "devDependencies": {
     "@types/mithril": "^1.1.12",
     "browserify": "^16.2.2",
+    "rollup": "^0.63.5",
+    "rollup-plugin-typescript2": "^0.16.1",
     "ts-loader": "^4.4.2",
     "tsify": "^4.0.0",
     "typescript": "^3.0.1",
