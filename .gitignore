@@ -1,4 +1,6 @@
 /node_modules
 /public/app.js
+/dist
+/.cache
 /.rpt2_cache
 *.log
